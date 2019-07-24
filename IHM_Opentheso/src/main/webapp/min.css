@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 juil. 2019, 16:21:23
+    Author     : brann
+*/
+
+/* ===================================================================
+ * # base style overrides
+ *
+ * ------------------------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #111111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.765;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===================================================================
+ * # typography & general theme styles
+ * 
+ * ------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #2f2f2f;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    
+    
