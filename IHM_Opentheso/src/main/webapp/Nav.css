@@ -8,3 +8,56 @@ and open the template in the editor.
     Author     : brann
 */
 
+
+
+
+
+#nav {
+    height : 70px;
+    background-color:#43B572;
+    width: 1280px;
+}
+
+#logo img {
+    float:left;
+    
+}
+
+ul navigation {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+ }
+li navigation{
+    margin-left:2px;
+    float:left; /*pour IE*/
+ }
+ul li a navigation{
+    display:block;
+    float:left;   
+    width:100px;
+    color:#FAFAFA;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    font-weight: 600;
+ }
+ul li a:hover {
+    color: #FAFAFA;
+    font-weight: 700;
+ } 
+ 
+.separateur {
+     height:70px;
+     Width:1px;
+     
+}
+#1 separateur {
+     
+}
+#2 separateur {
+     
+ }
+ 
+.liste-thesaurus
+

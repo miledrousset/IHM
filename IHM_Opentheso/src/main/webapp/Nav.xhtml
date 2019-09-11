@@ -4,19 +4,53 @@
 "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html 
+<html
 xmlns="http://www.w3.org/1999/xhtml"
 xmlns:h="http://java.sun.com/jsf/html"
 xmlns:p="http://primefaces.org/ui"
 xmlns:ui="http://java.sun.com/jsf/facelets"
-xmlns:f="http://xmlns.jcp.org/jsf/core">
+xmlns:f="http://xmlns.jcp.org/jsf/core"
+xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
     <head>
-        <title>TODO supply a title</title>
+        <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="Nav.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="min.css" media="screen" />
-        </head>
-    <body>
-        <div>TODO write content</div>
+        <link rel="stylesheet" type="text/css" href="Nav.css" />
+        <link rel="stylesheet" type="text/css" href="min.css" />
+    </head>
+    <body>  
+        <div id="nav">
+            <div id="logo"><img alt="" src=""></img></div>
+            <ul id="navigation">
+                <li><a href="#" title="aller à la section 1">Thésaurus</a></li>
+                <li><a href="#" title="aller à la section 2">Candidat</a></li>
+                <li><a href="#" title="aller à la section 3">Profil</a></li>
+                <li><a href="#" title="aller à la section 4">Paramètres</a></li>
+                <li><a href="#" title="aller à la section 5">Boîtes à outils</a></li>
+                <li><a href="#" title="aller à la section 5">Déconnexion</a></li>
+            </ul>
+            <div id="1" class="separateur"></div>
+            <div id="liste-thesaurus">
+                <h:form>
+                    <p:menubar>
+                        <p:submenu label="Edit" icon="">
+                            <p:menuitem value="Théso 1" url="#" icon="" />
+                            <p:menuitem value="Théso 2" url="#" icon="" />
+                        </p:submenu>
+                    </p:menubar>   
+                 </h:form>
+            </div>
+            <div id="2" class="separateur"></div>
+            <div id="langue">
+                <h:form>
+                    <p:menubar>
+                        <p:submenu label="Edit" icon="">
+                            <p:menuitem value="FR" url="#" icon="FR" />
+                            <p:menuitem value="EN" url="#" icon="EN" />
+                        </p:submenu>
+                    </p:menubar>
+                </h:form>
+                
+            </div>
+        </div>
     </body>
 </html>
